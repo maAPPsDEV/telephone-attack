@@ -37,10 +37,8 @@ See the description in [Solidity Doc](https://docs.soliditylang.org/en/v0.8.5/se
 
 Example:
 
-<figure>
-<img src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzOTU0NTB8fGVufDB8fHw%3D&w=1000&q=80" alt="Trulli" style="width:100%">
-<figcaption align = "center">Where <b>tx.origin</b>, <b>msg.sender</b> is observed in the context of the very last node</figcaption>
-</figure>
+![1_FBfocFfHm8NxsTxmCL-p6w](https://user-images.githubusercontent.com/78368735/122559327-9190ab00-d015-11eb-9032-968238d479dd.png)
+<p align="center">Where <b>tx.origin</b>, <b>msg.sender</b> is observed in the context of the very last node</p>
 
 > Tip: `msg.sender` checks where the external function call directly came from. `msg.sender` is typically who you want to authenticate. 😄
 
